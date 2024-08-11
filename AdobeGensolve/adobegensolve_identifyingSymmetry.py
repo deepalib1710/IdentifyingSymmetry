@@ -16,7 +16,7 @@ for gpu in gpus:
     
 print(tf.config.list_physical_devices('GPU'))
 
-data_dir = r'C:\Users\Krishna Kumar Banka\Desktop\shapes'
+data_dir = r'shapes'
 image_exts = ['jpeg', 'jpg', 'bmp', 'png']
 
 for image_class in os.listdir(data_dir): 
